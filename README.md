@@ -114,4 +114,4 @@ The platform is designed to help:
 
 ## License
 
-This project is developed for research, innovation, and educational purposes.
+This project is developed for research, innovation, and educational purposes, built for Esewa x WWF Hackathon 2026.
