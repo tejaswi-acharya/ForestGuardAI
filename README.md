@@ -1,21 +1,35 @@
 # ForestGuard AI 🌿
 
-AI-powered wildlife monitoring and forest surveillance system designed for real-time species detection, threat monitoring, and smart environmental observation.
+ForestGuard AI is an AI-powered wildlife monitoring and forest surveillance platform designed for real-time species detection, threat monitoring, and smart environmental observation.
+
+Developed for the **eSewa x WWF Hackathon 2026** under:
+
+### Challenge 1
+Develop an AI/ML solution that automatically detects and identifies images with wildlife species and without any species.
 
 ---
 
-## Features
+# Team Members
+
+- Tejaswi Acharya
+- Prayusha Pokhrel
+- Samrachana Sharma
+
+---
+
+# Features
 
 - Real-time wildlife detection
 - AI-powered monitoring dashboard
 - Species activity analysis
 - Threat & unusual activity alerts
-- Responsive modern interface
+- Smart forest surveillance interface
+- Responsive modern UI
 - Fast and lightweight frontend
 
 ---
 
-## Tech Stack
+# Tech Stack
 
 - React
 - TypeScript
@@ -24,9 +38,9 @@ AI-powered wildlife monitoring and forest surveillance system designed for real-
 
 ---
 
-## Getting Started
+# Getting Started
 
-### 1. Clone the Repository
+## 1. Clone the Repository
 
 ```bash
 git clone <YOUR_REPOSITORY_LINK>
@@ -35,7 +49,7 @@ cd forestguard
 
 ---
 
-### 2. Install Dependencies
+## 2. Install Dependencies
 
 Using npm:
 
@@ -51,7 +65,7 @@ bun install
 
 ---
 
-### 3. Run the Development Server
+## 3. Run the Development Server
 
 Using npm:
 
@@ -67,51 +81,106 @@ bun run dev
 
 ---
 
-### 4. Open in Browser
+## 4. Open the Application
 
-Visit:
+After running the development server, Vite usually provides a localhost link such as:
 
 ```text
 http://localhost:5173
 ```
 
+However, in some systems the copied localhost URL may point to the wrong port and the browser may show:
+
+```text
+This site can't be reached
+```
+
+### If this happens:
+
+1. Run the project normally using:
+
+```bash
+npm run dev
+```
+
+2. In the terminal or VS Code, use the:
+
+```text
+Follow Link
+```
+
+option / live server link provided by the terminal.
+
+3. Open the application from there once.
+
+4. Check the correct localhost port shown in the browser.
+
+Example:
+
+```text
+http://localhost:3000
+```
+
+OR
+
+```text
+http://localhost:4173
+```
+
+5. Use that correct port while opening the application manually in the browser.
+
+This ensures the project runs on the correct local server port.
+
 ---
 
-## Project Structure
+# Project Structure
 
 ```text
 src/
  ├── components/
- ├── pages/
- ├── assets/
+ ├── routes/
  ├── hooks/
- └── utils/
+ ├── lib/
+ ├── server/
+ └── styles/
 ```
 
 ---
 
-## Purpose
+# Purpose
 
 ForestGuard AI aims to support wildlife conservation and smart forest monitoring through AI-assisted surveillance and real-time environmental analysis.
 
-The platform is designed to help:
+The platform is designed to assist:
+
 - Forest authorities
-- Researchers
+- Wildlife researchers
 - Conservation organizations
 - Environmental monitoring teams
 
 ---
 
-## Future Improvements
+# Future Improvements
 
 - Edge AI camera integration
 - Offline wildlife detection
 - Live ranger alert system
 - Drone surveillance support
 - Mobile application support
+- Multi-zone monitoring expansion
 
 ---
 
-## License
+# Hackathon Submission
 
-This project is developed for research, innovation, and educational purposes, built for Esewa x WWF Hackathon 2026.
+This project was developed as part of the:
+
+### eSewa x WWF Hackathon 2026
+
+Focused on building AI-driven solutions for wildlife conservation and intelligent forest monitoring.
+
+---
+
+# License
+
+This project is developed for educational, research, and hackathon innovation purposes.
